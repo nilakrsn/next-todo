@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app__footer{
+    @apply flex items-center py-3 px-4 w-full shadow-lg border-t font-bold 
+}

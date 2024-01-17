@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app__header{
+    @apply flex items-center py-3 px-4 w-full shadow-lg border-b
+} 
+
+.app__header__nav{
+    @apply  ml-auto h-full flex
+}
+
+.app__header__nav__list{
+    @apply flex items-center h-full
+}
+
+.app__header__nav__item{
+    @apply h-auto w-auto
+}
+
+.app__header__nav_item_link{
+    @apply flex px-6 py-4 hover:border-b hover:border-slate-900 hover:bg-slate-300
+}
